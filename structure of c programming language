@@ -1,0 +1,30 @@
+A C program is divided into six main sections, each serving a specific purpose:
+
+I]Documentation Section: Contains comments that describe the program, its purpose, author, and other details.
+For example:
+// This program calculates the area of a circle
+II]Preprocessor Section: Includes header files and macros. 
+For example:
+#include <stdio.h>
+#define PI 3.14
+
+III]Definition Section: Defines constants using the #define directive. 
+For example:
+#define MAX 100
+
+IV]Global Declaration Section: Declares global variables and function prototypes. These are accessible throughout the program. 
+For example:
+int globalVar;
+void myFunction();
+
+V]Main() Function Section: The entry point of the program, where execution starts. It contains declarations and executable statements. 
+For example:
+int main() {
+    int localVar;
+    printf("Hello, World!");
+    return 0;}
+
+VI]Subprogram Section: Contains user-defined functions that perform specific tasks. 
+For example:
+void myFunction() {
+    printf("This is a user-defined function."); }
